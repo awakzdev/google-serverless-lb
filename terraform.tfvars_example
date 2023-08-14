@@ -1,0 +1,7 @@
+name_prefix              = "staging"
+gcp_project              = "cc-s2s-vpn-test"
+certificate_name         = "sample-cert"
+static_ip_resource_name  = "sample-ip"
+gcp_region               = "us-central1"
+function_list            = ["function-1", "function-2"]
+domain                   = "sample.cclab.cloud-castles.com"
