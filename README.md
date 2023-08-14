@@ -49,7 +49,7 @@ https://sample.cclab.cloud-castles.com/function-2
 And so on, for all the Cloud Functions you specify. This mapping ensures that each Cloud Function has a dedicated and predictable endpoint under the primary domain, making it easy to route traffic and organize services.
 
 ## Testing
-The following syntax may be to test your loadbalancer used :
+The following syntax may be used to test your load balancer:
 ```
 curl -m 70 -X POST https://sample.cclab.cloud-castles.com/function-1 \
 -H "Authorization: bearer $(gcloud auth print-identity-token)" \
