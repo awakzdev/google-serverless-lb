@@ -76,3 +76,7 @@ gcp_region               = "us-central1"
 function_list            = ["function-1", "function-2"]
 domain                   = "sample.cclab.cloud-castles.com"
 ```
+
+
+# Feedback and Contributions
+Feedback is welcomed, issues, and pull requests! If you have any suggestions or find any bugs, please open an issue on my GitHub repository.
