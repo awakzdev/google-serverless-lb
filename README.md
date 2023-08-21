@@ -58,13 +58,13 @@ curl -m 70 -X POST https://sample.cclab.cloud-castles.com/function-1 \
 ```
 
 ## Configuration
-- name_prefix: Naming prefix for your GCP resources.
-- gcp_project: The GCP project ID.
-- gcp_region: The GCP region where the resources are provisioned.
-- static_ip_resource_name: Name of the reserved IP address resource.
-- certificate_name: Existing SSL certificate name.
-- function_list: List of Cloud Functions to be attached to the load balancer.
-- domain: The domain name for your load balancer. (Should match the SSL certificate)
+- **name_prefix**: Naming prefix for your GCP resources.
+- **gcp_project**: The GCP project ID.
+- **gcp_region**: The GCP region where the resources are provisioned.
+- **static_ip_resource_name**: Name of the reserved IP address resource.
+- **certificate_name**: Existing SSL certificate name.
+- **function_list**: List of Cloud Functions to be attached to the load balancer.
+- **domain**: The domain name for your load balancer. (Should match the SSL certificate)
 
 You may use this sample for your convenience
 ```
