@@ -1,7 +1,7 @@
-name_prefix              = "staging"
-gcp_project              = "cc-s2s-vpn-test"
-certificate_name         = "sample-cert"
+name_prefix              = "staging" # Naming prefix to attach to your resources .. 
+gcp_project              = "cc-s2s-vpn-test" # GCP Project name
+certificate_name         = "sample-cert" # Your loadbalancer HTTPS certificate
 static_ip_resource_name  = "sample-ip" # Reserved for load-balancing
-gcp_region               = "us-central1"
+gcp_region               = "us-central1" # GCP Region
 function_list            = ["function-1", "function-2"] # Those are the cloudfunctions that will be attached to the loadbalancer
 domain                   = "sample.cclab.cloud-castles.com" # LoadBalancer URL
